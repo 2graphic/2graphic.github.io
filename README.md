@@ -1,2 +1,2 @@
 # 2graphic.github.io
-2graphic's home page and 
+2graphic's home page.
