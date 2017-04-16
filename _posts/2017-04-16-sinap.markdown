@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Sinap"
+date:   2017-04-16
+---
+Abstract graphs are used ubiquitously in Computer Science. They are a powerful utility for representing the structure of various algorithms. Sinap is an Open Source IDE that helps visualize, design, and interpret graph-based programs. The IDE has a simple plugin API to support any graph-based language. Some examples of these languages include automata, artificial neural networks, and even circuit designs. Users build graphs from scratch with the visual editor and modify the properties of the nodes and edges to create a program. Once created, they are able to run, test, and interactively debug their program. Sinap ships with a suite of formal language and automata plugins which we refer to as FLAP.

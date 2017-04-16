@@ -2,34 +2,15 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col footer-col-6">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% include icon-github.html username=site.github_username %}
+          <li>Daniel James &lt;<a href="mailto:daniel@danielscottjames.com">daniel@danielscottjames.com</a>&gt;</li>
+          <li>CJ Dimaano &lt;<a href="mailto:c.j.s.dimaano@gmail.com">c.j.s.dimaano@gmail.com</a>&gt;</li>
+          <li>Sheyne Anderson &lt;<a href="mailto:sheyne@sheyne.com">sheyne@sheyne.com</a>&gt;</li>
+          <li>Dyllon Gagnier &lt;<a href="mailto:dyllongagnier@gmail.com">dyllongagnier@gmail.com</a>&gt;</li>
         </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
       </div>
     </div>
 
