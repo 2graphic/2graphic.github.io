@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about-us/
 ---
-<img src="/assets/2graphic.png" />
+![Team 2graphic](/assets/2graphic.png)
 Left to right: Sheyne Anderson, CJ Dimaano, Dyllon Gagnier, Daniel James
