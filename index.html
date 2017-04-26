@@ -2,13 +2,24 @@
 layout: default
 title: {{ site.name }}
 ---
-
 <div id="home">
   <a class="site-title" href="{{ site.baseurl }}/"><img src="/assets/sinap_logo.png" /></a>
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <h2>What is Sinap?</h2>
+  <p>
+    Sinap is not a plot IDE. The goal of Sinap is to provide a generic UI platform for editing and interpreting domain-specific
+    graph-based languages. What does this mean? Let's break it down. Users of Sinap want to design visual representations
+    of state machines or other conceptual tools that can be modeled with nodes and edges but don't want to have to create
+    their own UI to handle all the fancy drawing stuff. Sinap IDE will provide the heavy lifting for presenting the visual
+    side of creating graphs as well as running interpreters for them. Where do these interpreters come from? Plugins. Sinap
+    IDE will expose an API that developers can use to create their own domain-specific interpreters of languages that can
+    be modeled with graphs. These plugins can then be installed into Sinap, giving the IDE more power.
+  </p>
+  <p>
+    There are many options for graph editors available, but the vast majority of them are designed specifically for their respective
+    domains. Sinap IDE aims to break this trend by allowing developers implement their own interpreters that can be used
+    in the application. Think of a lightweight text editor for writing code but replace "text" with "graph" and add interpreting
+    and that is what Sinap aims to be. What do we mean by "interpret"? Sinap is not a tool for simple chart designs. The
+    idea behind Sinap plugins is to be able to feed graphs some input in order to see what the graph produces. Imagine a
+    tool that allows you to step through a state machine that you designed for a project. With the right plugin, this is
+    possible with Sinap IDE.</p>
 </div>
