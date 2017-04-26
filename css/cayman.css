@@ -209,7 +209,7 @@ svg path {
 	width: 15em;
 }
 
-.site-title a, .site-title a:visited {
+a.site-title, a.site-title:hover, a.site-title:visited {
   color: white;
   text-decoration: none;
 }
