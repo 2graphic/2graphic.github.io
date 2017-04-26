@@ -208,3 +208,8 @@ svg path {
 .icon--github > svg {
 	width: 15em;
 }
+
+.site-title a, .site-title a:visited {
+  color: white;
+  text-decoration: none;
+}
