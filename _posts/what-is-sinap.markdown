@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "What is Sinap?"
-date:   2017-04-26
 ---
 Sinap is not a plot IDE. The goal of Sinap is to provide a generic UI platform for editing and interpreting domain-specific graph-based languages. What does this mean? Let's break it down. Users of Sinap want to design visual representations of state machines or other conceptual tools that can be modeled with nodes and edges but don't want to have to create their own UI to handle all the fancy drawing stuff. Sinap IDE will provide the heavy lifting for presenting the visual side of creating graphs as well as running interpreters for them. Where do these interpreters come from? Plugins. Sinap IDE will expose an API that developers can use to create their own domain-specific interpreters of languages that can be modeled with graphs. These plugins can then be installed into Sinap, giving the IDE more power.
 
