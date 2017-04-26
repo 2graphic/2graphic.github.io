@@ -204,3 +204,7 @@ svg.icon {
 svg path {
   fill: #828282
 }
+
+.icon--github > svg {
+	width: 15em;
+}
