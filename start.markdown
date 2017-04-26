@@ -4,9 +4,9 @@ title: Getting Started
 permalink: /getting-started/
 ---
 
-## Getting Started
+# Getting Started
 
-### Downloading Sinap
+## Downloading Sinap
 
 First, download the appropriate .zip file for your operating system on the releases page:
 
@@ -14,13 +14,13 @@ First, download the appropriate .zip file for your operating system on the relea
 
 Extract the archive into its own directory.
 
-### Run Sinap
+## Run Sinap
 
 Once extracted, run Sinap.
 
 ![initial screen](/assets/tutorial/001_initial_screen.png)
 
-### Loading Plugins
+## Loading Plugins
 
 To load a plugin with Sinap, use the plugin manager.
 
@@ -28,7 +28,7 @@ To load a plugin with Sinap, use the plugin manager.
 
 ![plugin manager](/assets/tutorial/003_import_plugins.png)
 
-#### Detour
+### Detour
 
 Currently, plugins have to be cloned from GitHub. However, a plugin can be packaged into
 a .zip file and loaded into Sinap using the file.
@@ -40,7 +40,7 @@ Clone a plugin from GitHub.
 $ git clone https://github.com/2graphic/nfa-plugin
 ```
 
-### Creating a new document
+## Creating a new document
 
 Pretty self explanitory.
 
@@ -50,14 +50,14 @@ Select the kind of graph you want to create.
 
 ![new project manager](/assets/tutorial/005_new_dialog.png)
 
-### Editing the graph
+## Editing the graph
 
 ![blank canvas](/assets/tutorial/006_new_example.png)
 
 Creating nodes can be done by double clicking the canvas. Creating edges can be done
 by clicking and dragging from node to node only if the anchor point is visible.
 
-### Interpreting the graph
+## Interpreting the graph
 
 ![blank canvas](/assets/tutorial/007_example_editing.png)
 
@@ -65,7 +65,7 @@ Once you have your graph in place, you can feed it input via the input panel at 
 of the screen. There is also support for stepping through and viewing the various steps of
 the computation to the right of the input panel.
 
-### Unit testing
+## Unit testing
 
 Unit testing can be done via the Unit Test panel at the bottom. Click on the Unit Tests icon
 to bring it up.
