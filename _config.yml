@@ -1,13 +1,13 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        2graphic presents Sinap
+tagline:      Visual IDE for Graph-Based Languages
 baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       2graphic
+  url:        http://github.com/2graphic 
 
 # Gems
 gems:
